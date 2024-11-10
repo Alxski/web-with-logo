@@ -3,133 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css">
-        *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-            font-family: 'Arial';
-        }
-        #wrapper-div{
-            width: 80%;
-            background-color: white;
-            margin:auto;
-        }
-        #main-div{
-            width: 100%;
-            margin-bottom: 100px;
-        }
-        #logo-div{
-            width: 50%;
-            min-height: 200px;
-            background-color: lightgray;
-            text-align: left;
-            line-height: 200px;
-            float:left;
-            font-style: bold;
-            padding-left: 2%;
-        }
-        #nav-div{
-            width:50%;
-            min-height: 400px;
-            background-color: lightgray;
-            float: right;
-            text-align: center;
-            line-height: 400px;
-        }
-        #header-div{
-            width:100%;
-            min-height: 800px;
-            background-color: lightgray;
-            text-align: center;
-            line-height: 800px;
-            margin-bottom: 100px;
-        }
-        #ITA-div{
-            width: 100%;
-            min-height: 500px;
-            background-color: lightgray;
-            text-align: center;
-            line-height: 500px;
-            margin-bottom: 100px;
-        }
-        #main2-div{
-            width: 100%;
-            min-height: 2500px;
-            margin-bottom: 100px;
-        }
-        #box1-div{
-            width: 30%;
-            min-height: 2500px;
-            background-color: lightgray;
-            text-align: center;
-            float: left;
-            line-height: 2500px;
-        }
-        #box2-div{
-            width: 30%;
-            min-height: 2500px;
-            background-color: lightgray;
-            text-align: center;
-            float: left;
-            line-height: 2500px;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-        #box3-div{
-            width: 30%;
-            min-height: 2500px;
-            background-color: lightgray;
-            text-align: center;
-            float: left;
-            line-height: 2500px;
-        }
-        .clearfix::after
-        {
-            content: "";
-            display: block;
-            clear: both;
-        }
-        #footer-div{
-            width: 100%;
-            min-height: 200px;
-            background-color: lightgray;
-            text-align: center;
-            line-height: 200px;
-        }
-    </style>
-    <title>Web Layout</title>
+    <title>ALX Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="wrapper-div">
-        <div id="main-div" class="clearfix">
-            <div id="logo-div">
-                <img src="imgs/logo.png" width="100px" height="100px">
-            </div>
-            <div id="nav-div">
-                Navigation
-            </div>
+    <div class="heading">
+        <div id="header">
+            <img src="img/ALXShop.png" height="50px">
         </div>
-        <div id="header-div">
-            Header / Banner
-        </div>
-        <div id="ITA-div">
-            Intro Text Area
-        </div>
-        <div id="main2-div" class="clearfix">
-            <div id="box1-div">
-                Box 1
-            </div>
-            <div id="box2-div">
-                Box 2
-            </div>
-            <div id="box3-div">
-                Box 3
-            </div>
-        </div>
-        <div id="footer-div">
-            Footer
+        <div id="nav">
+            <a href="s">Home</a>
+            <a href="s">Latest</a>
+            <a href="s">Products</a>
+            <a href="s">Contact</a>
+            <a href="s">More</a>
         </div>
     </div>
+    <div class="sidebar">
+        <a href="https://www.facebook.com/profile.php?id=100095464516194&mibextid=ZbWKwL"><img src="img/mainpage.png" height="228px"></a><br>
+        <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02LkxjKv3XEFX5MNk44b9Pcfiu15T5CPWjZbTYgpmqbfc6pYTfb8KvujscCChksD7Al&id=100095464516194"><img src="img/1.png" height="243px"></a><br>
+        <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02uTHZnGuFH3AkVPeZBmt6vGXDELGXZxh6eamUEgzbZPXsp7Pmka6rHw47eDTmwD5Cl&id=100095464516194"><img src="img/2.png" height="273px"></a><br>
+        <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02Jzjw2DcUGqMoFBxy7AtxzF5C7zrcJDDkjBLDnLyLzwQ8CPzRqJz8XnhW7EK7qB9Kl&id=100095464516194"><img src="img/3.png" height="281px"></a><br>
+        <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02oqwzyHuXpted6vsYqwwcDhmNWV9P2A9QkL5UBVZzoQBU6BjRZxxRqMzcSCdYkT6Dl&id=100095464516194"><img src="img/4.png" height="278px"></a><br>
+    </div>
+    <div id="content">
+ 
+        <img src="img/00.jpg" height="300px">
+
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Duis sapien justo pharetra elementum montes quis. Et vulputate purus praesent netus, proin primis ut netus. Dapibus ridiculus dapibus malesuada
+             class tellus class litora accumsan turpis. Dis nunc purus tellus pharetra augue urna. Erat consequat integer volutpat eleifend pellentesque quisque in senectus. Himenaeos porta nisl purus senectus
+            convallis vulputate dui at at. Conubia netus interdum erat lobortis condimentum. Urna massa porta tristique eu convallis fermentum mollis. Orci hac duis sapien ex magna metus lobortis. Penatibus
+            et scelerisque porttitor fusce sodales eget volutpat facilisi fermentum. Feugiat lobortis justo dignissim vulputate eget. Mus cubilia augue leo himenaeos habitant urna.</p>
+
+            <img src="img/01.jpg" height="300px">
+
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Duis sapien justo pharetra elementum montes quis. Et vulputate purus praesent netus, proin primis ut netus. Dapibus ridiculus dapibus malesuada
+            class tellus class litora accumsan turpis. Dis nunc purus tellus pharetra augue urna. Erat consequat integer volutpat eleifend pellentesque quisque in senectus. Himenaeos porta nisl purus senectus
+           convallis vulputate dui at at. Conubia netus interdum erat lobortis condimentum. Urna massa porta tristique eu convallis fermentum mollis. Orci hac duis sapien ex magna metus lobortis. Penatibus
+           et scelerisque porttitor fusce sodales eget volutpat facilisi fermentum. Feugiat lobortis justo dignissim vulputate eget. Mus cubilia augue leo himenaeos habitant urna.</p>
+
+           <img src="img/02.jpg" height="300px">
+
+       <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Duis sapien justo pharetra elementum montes quis. Et vulputate purus praesent netus, proin primis ut netus. Dapibus ridiculus dapibus malesuada
+        class tellus class litora accumsan turpis. Dis nunc purus tellus pharetra augue urna. Erat consequat integer volutpat eleifend pellentesque quisque in senectus. Himenaeos porta nisl purus senectus
+       convallis vulputate dui at at. Conubia netus interdum erat lobortis condimentum. Urna massa porta tristique eu convallis fermentum mollis. Orci hac duis sapien ex magna metus lobortis. Penatibus
+       et scelerisque porttitor fusce sodales eget volutpat facilisi fermentum. Feugiat lobortis justo dignissim vulputate eget. Mus cubilia augue leo himenaeos habitant urna.</p>
+
+       <img src="img/03.jpg" height="300px">
+
+   <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Duis sapien justo pharetra elementum montes quis. Et vulputate purus praesent netus, proin primis ut netus. Dapibus ridiculus dapibus malesuada
+    class tellus class litora accumsan turpis. Dis nunc purus tellus pharetra augue urna. Erat consequat integer volutpat eleifend pellentesque quisque in senectus. Himenaeos porta nisl purus senectus
+   convallis vulputate dui at at. Conubia netus interdum erat lobortis condimentum. Urna massa porta tristique eu convallis fermentum mollis. Orci hac duis sapien ex magna metus lobortis. Penatibus
+   et scelerisque porttitor fusce sodales eget volutpat facilisi fermentum. Feugiat lobortis justo dignissim vulputate eget. Mus cubilia augue leo himenaeos habitant urna.</p>
+
+   <img src="img/04.jpg" height="300px">
+
+<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Duis sapien justo pharetra elementum montes quis. Et vulputate purus praesent netus, proin primis ut netus. Dapibus ridiculus dapibus malesuada
+    class tellus class litora accumsan turpis. Dis nunc purus tellus pharetra augue urna. Erat consequat integer volutpat eleifend pellentesque quisque in senectus. Himenaeos porta nisl purus senectus
+   convallis vulputate dui at at. Conubia netus interdum erat lobortis condimentum. Urna massa porta tristique eu convallis fermentum mollis. Orci hac duis sapien ex magna metus lobortis. Penatibus
+   et scelerisque porttitor fusce sodales eget volutpat facilisi fermentum. Feugiat lobortis justo dignissim vulputate eget. Mus cubilia augue leo himenaeos habitant urna.</p>
+</div>
+    <div id="footer">
+        <img src="img/ALXShop.png" height="50px"><br>
+        <h6>Alexa R. Pamilaran</h6><br>
+        <h6>202310184@fit.edu.ph</h6>
+    </div>
+</div>
 </body>
 </html>
