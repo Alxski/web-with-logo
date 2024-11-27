@@ -1,3 +1,114 @@
+
+.navbar{
+    background-color: none;
+    height:80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.navbar-brand {
+    font-weight: 500px;
+    color:rgb(26, 0, 71);
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.login-button{
+    background-color: rgb(137, 79, 198);
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-button:hover {
+    background: color rgb(26, 0, 71);
+}
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow:none;
+    outline:none;
+}
+
+.nav-link {
+    color: rgb(26, 0, 71);
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color:#000;
+
+}
+
+@media(min-width: 991px) {
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: rgb(26, 0, 71);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+
+}
+}
+
+
+.hero-section{
+    background: url(ALXShop.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+
+}
+
+.hero-section::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left:0;
+}
+
+.hero-section .container {
+    height:100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1{
+    font-size: 1.5em;
+}
+.hero-section h2{
+    font-size:1.2em;
+}
+
+.sidebar {
+    width: 25%;              
+    height: 100vh;           
+    background-color: rgb(26, 0, 71); 
+    position: fixed;         
+    right: 0;              
+    top: 0;              
+    overflow-y: auto;    
+    padding-right: 10px; 
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,36 +120,24 @@
     float: left;
 }
 #header{
-    width:50%;
-    min-height: 100px;
+    width: 75%;
+    min-height: 105px;
     background-color: rgb(137, 79, 198);
     text-align: left;
     line-height: 100px;
     float:left;
     padding-left: 2%;
 }
-#nav{
-    width:50%;
-    min-height: 100px;
-    background-color:rgb(137, 79, 198);
-    text-align: right;
-    line-height: 100px;
-    float: right;
-    padding-right: 2%;
-}
-.sidebar{
-    width:25%;
-    height:100vh;
-    background-color:rgb(26, 0, 71);
-    float: right;
-}
+
 #content{
     width:75%;
     min-height:fit-content;
     background-color: rgb(92, 39, 146);
     text-align: justify;
+    overflow-y: auto;       
     margin-right: 5%;
     padding-left: 2%;
+    justify-content: center;
 }
 #footer{
     width: 100%;
